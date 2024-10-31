@@ -4,4 +4,4 @@ COPY keytool /layers/paketo-buildpacks_bellsoft-liberica/jre/bin/keytool
 
 USER 0:0
 
-RUN chmod +x /layers/paketo-buildpacks_bellsoft-liberica/jre/bin/keytool
+RUN chmod a+x /layers/paketo-buildpacks_bellsoft-liberica/jre/bin/keytool
